@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T08:31:54.823Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="4ggExE6yRrC6GSGEkscY" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T08:37:25.207Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="gMgNgJDHoX3q82AO98tl" version="13.8.8" type="github">
   <diagram id="RS3gQuSH7ivdniKlgXfp" name="第 1 页">
     <mxGraphModel dx="2249" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,8 +88,11 @@
         <mxCell id="PaqTJVIoArmfvsnnBVyT-7" value="根据APP版本号&lt;br&gt;过滤无效数据" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210.63" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QcyMcEOpgAsck1mUgxNu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PaqTJVIoArmfvsnnBVyT-9" target="QcyMcEOpgAsck1mUgxNu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PaqTJVIoArmfvsnnBVyT-9" value="分类新增、更新、删除、全量覆盖数据" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="210.63" y="1510" width="120" height="60" as="geometry" />
+          <mxGeometry x="210.63" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QcyMcEOpgAsck1mUgxNu-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QcyMcEOpgAsck1mUgxNu-1" target="QcyMcEOpgAsck1mUgxNu-3">
           <mxGeometry relative="1" as="geometry" />
@@ -120,6 +123,21 @@
         </mxCell>
         <mxCell id="QcyMcEOpgAsck1mUgxNu-8" value="查询全量有效配置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QcyMcEOpgAsck1mUgxNu-12" value="返回客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="211" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QcyMcEOpgAsck1mUgxNu-14" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PaqTJVIoArmfvsnnBVyT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345.63" y="1134.5" as="sourcePoint" />
+            <mxPoint x="455.13" y="1134.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcyMcEOpgAsck1mUgxNu-15" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PaqTJVIoArmfvsnnBVyT-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1259.5" as="sourcePoint" />
+            <mxPoint x="439.5" y="1259.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
