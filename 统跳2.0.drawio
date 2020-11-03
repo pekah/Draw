@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T16:50:44.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.58" etag="N-0ZbDYGRE9e-XeUFQ-9" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T16:51:32.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.58" etag="VxpRaniqE71MtAOU5YP8" version="13.8.8" type="github">
   <diagram id="RS3gQuSH7ivdniKlgXfp" name="第 1 页">
     <mxGraphModel dx="2249" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,9 +174,6 @@
         <mxCell id="M9RZpOy-_R91y8lZNyFX-15" value="流水关联的统跳原始数据" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="1103.5" width="60" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="M9RZpOy-_R91y8lZNyFX-19" value="统跳配置表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="-170" y="1101.5" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="M9RZpOy-_R91y8lZNyFX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="M9RZpOy-_R91y8lZNyFX-20" target="PaqTJVIoArmfvsnnBVyT-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -193,9 +190,9 @@
         <mxCell id="M9RZpOy-_R91y8lZNyFX-20" value="统跳全量有效数据" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="1100" width="60" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="M9RZpOy-_R91y8lZNyFX-26" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="M9RZpOy-_R91y8lZNyFX-19" target="M9RZpOy-_R91y8lZNyFX-20" edge="1">
+        <mxCell id="M9RZpOy-_R91y8lZNyFX-26" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="eJEvzWIPMgzrte5PGahm-22" target="M9RZpOy-_R91y8lZNyFX-20" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-70" y="1133.5" as="sourcePoint" />
+            <mxPoint x="-50" y="1131.5" as="sourcePoint" />
             <mxPoint x="30" y="1134" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -239,6 +236,9 @@
         </mxCell>
         <mxCell id="eJEvzWIPMgzrte5PGahm-20" value="&lt;span&gt;统跳流水表&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="610" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eJEvzWIPMgzrte5PGahm-22" value="统跳配置表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1091.5" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
