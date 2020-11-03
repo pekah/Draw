@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T16:59:40.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.58" etag="iBSRtXYa-aNcSyk38R9e" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T17:00:24.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.58" etag="N7HdAu-YS8neLKvzDrQh" version="13.8.8" type="github">
   <diagram id="RS3gQuSH7ivdniKlgXfp" name="第 1 页">
     <mxGraphModel dx="2249" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,10 +62,10 @@
           <mxGeometry x="195.63" y="710" width="149.75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="PeZeIdXc5IusPnAq8SGJ-8" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="725" width="120" height="60" as="geometry" />
+          <mxGeometry x="-70" y="725" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PeZeIdXc5IusPnAq8SGJ-11" value="版本号相同，无须更新&lt;br&gt;客户端依旧使用本地数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="770" width="150" height="30" as="geometry" />
+        <mxCell id="PeZeIdXc5IusPnAq8SGJ-11" value="版本号相同，标记无须更新&lt;br&gt;客户端依旧使用本地数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="770" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PaqTJVIoArmfvsnnBVyT-2" value="根据传入版本号、最新版本号查询相差的版本变更记录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="195.63" y="1100" width="150" height="70" as="geometry" />
