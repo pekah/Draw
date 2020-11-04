@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T04:28:44.849Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="TKy0iA-tn_eLgLdqDgL7" version="13.8.9-1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T05:00:32.882Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="iswCAFO2jCF-SQKqDHQA" version="13.8.9-1" type="github">
   <diagram id="RS3gQuSH7ivdniKlgXfp" name="第 1 页">
     <mxGraphModel dx="2249" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,7 +274,7 @@
         <mxCell id="eJEvzWIPMgzrte5PGahm-32" value="推送统跳配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1800" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y5ZsbkcYj81P_xqx2YwD-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Y5ZsbkcYj81P_xqx2YwD-5" value="校验入参合法性" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1800" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="inaL4AuZa8-BuLYCwXfh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-3" target="inaL4AuZa8-BuLYCwXfh-4">
@@ -299,6 +299,20 @@
         </mxCell>
         <mxCell id="inaL4AuZa8-BuLYCwXfh-8" value="业务统跳流水" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1410" y="810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-12" target="inaL4AuZa8-BuLYCwXfh-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2770" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-12" value="脚本定时清理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-14" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.script;" vertex="1" parent="1">
+          <mxGeometry x="2743.5" y="191" width="53" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
