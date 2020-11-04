@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T02:10:52.680Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="-r1sXnFbNcVKnu82bGaU" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T02:15:35.346Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="gr6cz262y9BFCNgloc21" version="13.8.8" type="github">
   <diagram id="RS3gQuSH7ivdniKlgXfp" name="第 1 页">
     <mxGraphModel dx="2232" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -265,8 +265,14 @@
         <mxCell id="eJEvzWIPMgzrte5PGahm-30" value="统跳配置表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1410" y="710" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Y5ZsbkcYj81P_xqx2YwD-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eJEvzWIPMgzrte5PGahm-32" target="Y5ZsbkcYj81P_xqx2YwD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eJEvzWIPMgzrte5PGahm-32" value="推送统跳配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1740" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5ZsbkcYj81P_xqx2YwD-3" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
