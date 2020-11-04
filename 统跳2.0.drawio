@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T05:22:36.779Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="ENMHezWEpIU4clrBVoHZ" version="13.8.9-1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T05:41:00.924Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="NHfiF42Adau-x-rRPc2s" version="13.8.9-1" type="github">
   <diagram id="RS3gQuSH7ivdniKlgXfp" name="第 1 页">
     <mxGraphModel dx="2249" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="inaL4AuZa8-BuLYCwXfh-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-28" target="inaL4AuZa8-BuLYCwXfh-42">
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-28" target="inaL4AuZa8-BuLYCwXfh-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="inaL4AuZa8-BuLYCwXfh-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-28" target="inaL4AuZa8-BuLYCwXfh-43">
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-28" target="inaL4AuZa8-BuLYCwXfh-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="inaL4AuZa8-BuLYCwXfh-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-28" target="inaL4AuZa8-BuLYCwXfh-47">
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-28" target="inaL4AuZa8-BuLYCwXfh-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="inaL4AuZa8-BuLYCwXfh-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -304,19 +304,22 @@
         <mxCell id="inaL4AuZa8-BuLYCwXfh-8" value="业务统跳流水" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1410" y="810" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="inaL4AuZa8-BuLYCwXfh-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-12" target="inaL4AuZa8-BuLYCwXfh-13">
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-11" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;每5min跑1次&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-12" target="inaL4AuZa8-BuLYCwXfh-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2640" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="inaL4AuZa8-BuLYCwXfh-12" value="脚本定时清理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2580" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-12" target="inaL4AuZa8-BuLYCwXfh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-12" value="脚本定时清理&lt;br&gt;版本变更关联的统跳数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="290" width="160" height="58.69" as="geometry" />
         </mxCell>
         <mxCell id="inaL4AuZa8-BuLYCwXfh-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2580" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="2580" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="inaL4AuZa8-BuLYCwXfh-14" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.script;" vertex="1" parent="1">
-          <mxGeometry x="2613.5" y="171" width="53" height="49" as="geometry" />
+          <mxGeometry x="2613.5" y="200" width="53" height="49" as="geometry" />
         </mxCell>
         <mxCell id="inaL4AuZa8-BuLYCwXfh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-15" target="inaL4AuZa8-BuLYCwXfh-17">
           <mxGeometry relative="1" as="geometry" />
@@ -361,7 +364,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="inaL4AuZa8-BuLYCwXfh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-31" target="inaL4AuZa8-BuLYCwXfh-35">
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-31" target="inaL4AuZa8-BuLYCwXfh-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="inaL4AuZa8-BuLYCwXfh-31" value="将新增版本变更记录&lt;br&gt;的index写入最新版本缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -370,7 +373,7 @@
         <mxCell id="inaL4AuZa8-BuLYCwXfh-35" value="最新版本号" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="2120" y="1100" width="60" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="inaL4AuZa8-BuLYCwXfh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-36" target="inaL4AuZa8-BuLYCwXfh-37">
+        <mxCell id="inaL4AuZa8-BuLYCwXfh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-36" target="inaL4AuZa8-BuLYCwXfh-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="inaL4AuZa8-BuLYCwXfh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="inaL4AuZa8-BuLYCwXfh-36">
