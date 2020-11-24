@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T06:27:53.742Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="tCCCaFvv_5STGdvjZ8l8" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T06:47:19.515Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="uNKVKNJ1KQPXf_p1xaUO" version="13.9.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1563" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,6 +110,41 @@
         </mxCell>
         <mxCell id="uDt04_MFJMx3Z47wcWQL-36" value="······" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="757" y="320" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-8" value="1、注册/登录" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6nstcyIq7KK4hpo65u4t-0" target="6nstcyIq7KK4hpo65u4t-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-11" value="2、填写入驻信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6nstcyIq7KK4hpo65u4t-0" target="6nstcyIq7KK4hpo65u4t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-0" value="商户" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="205" y="-560" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-14" value="4、根据审核结果更新状态" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6nstcyIq7KK4hpo65u4t-4" target="6nstcyIq7KK4hpo65u4t-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="-494" />
+              <mxPoint x="470" y="-494" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-4" value="审核系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="-574" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-5" value="账户系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="-444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-7" value="3、提交审核" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6nstcyIq7KK4hpo65u4t-6" target="6nstcyIq7KK4hpo65u4t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-6" value="消费号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="-574" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-13" value="人工审核" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6nstcyIq7KK4hpo65u4t-12" target="6nstcyIq7KK4hpo65u4t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6nstcyIq7KK4hpo65u4t-12" value="审核人员" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="695" y="-690" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
