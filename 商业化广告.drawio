@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T06:20:05.289Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="__U_PGhAUddyGY8KCAxl" version="13.11.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-12-09T11:43:51.669Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="fu0Hm0NlCVXqm7-uTIqm" version="13.11.0" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="查询广告计划">
     <mxGraphModel dx="1635" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -621,12 +621,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pp5L3Sd2qrLgmWWv9DzC" name="曝光统计">
-    <mxGraphModel dx="1635" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1635" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uOho3hO3nzCLooX27CC9-0" />
         <mxCell id="uOho3hO3nzCLooX27CC9-1" parent="uOho3hO3nzCLooX27CC9-0" />
         <mxCell id="XPeFe05pSeoeYRAG0yRP-0" value="曝光统计" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" parent="uOho3hO3nzCLooX27CC9-1" vertex="1">
-          <mxGeometry x="130" y="470" width="530" height="1460" as="geometry" />
+          <mxGeometry x="130" y="470" width="530" height="1600" as="geometry" />
         </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XPeFe05pSeoeYRAG0yRP-0" source="XPeFe05pSeoeYRAG0yRP-2" target="XPeFe05pSeoeYRAG0yRP-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -634,41 +634,44 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-1" value="用户端" style="swimlane;html=1;startSize=20;" parent="XPeFe05pSeoeYRAG0yRP-0" vertex="1">
-          <mxGeometry y="20" width="160" height="1440" as="geometry" />
+          <mxGeometry y="20" width="160" height="1580" as="geometry" />
         </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-2" value="监听曝光kafka topic" style="rounded=1;whiteSpace=wrap;html=1;" parent="XPeFe05pSeoeYRAG0yRP-1" vertex="1">
           <mxGeometry x="20" y="35" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V7nTUwQH5bitnzumU2AX-7" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="XPeFe05pSeoeYRAG0yRP-1" vertex="1">
-          <mxGeometry x="20" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-0" value="定时同步缓存到db&lt;br&gt;每半小时跑一次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-1">
-          <mxGeometry x="20" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-8" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-1">
-          <mxGeometry x="20" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-0" value="定时清除过期缓存&lt;br&gt;每天凌晨跑一次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-1">
-          <mxGeometry x="20" y="970" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-14" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-1">
-          <mxGeometry x="20" y="1360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="V7nTUwQH5bitnzumU2AX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="XPeFe05pSeoeYRAG0yRP-0" source="V7nTUwQH5bitnzumU2AX-6" target="V7nTUwQH5bitnzumU2AX-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="20" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-0" source="VCBYZFLRC-QHVLFJjjLS-0" target="VCBYZFLRC-QHVLFJjjLS-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="720" as="targetPoint" />
+            <mxPoint x="240" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-0" source="aRkYkFqwWbnHcXKLK4h_-0" target="aRkYkFqwWbnHcXKLK4h_-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="1020" as="targetPoint" />
+            <mxPoint x="230" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="aRkYkFqwWbnHcXKLK4h_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-0" source="aRkYkFqwWbnHcXKLK4h_-13" target="aRkYkFqwWbnHcXKLK4h_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqdhVK-HY7xANDIFwz0L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-0" source="MqdhVK-HY7xANDIFwz0L-2" target="V7nTUwQH5bitnzumU2AX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-5" value="广告计划模块" style="swimlane;html=1;startSize=20;" parent="XPeFe05pSeoeYRAG0yRP-0" vertex="1">
-          <mxGeometry x="160" y="20" width="370" height="1440" as="geometry" />
+          <mxGeometry x="160" y="20" width="370" height="1580" as="geometry" />
         </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-6" value="获取曝光事件id列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="XPeFe05pSeoeYRAG0yRP-5" vertex="1">
           <mxGeometry x="70" y="35" width="120" height="60" as="geometry" />
@@ -695,49 +698,58 @@
             <mxPoint x="130" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V7nTUwQH5bitnzumU2AX-6" value="写入广告计划失效缓存 （加锁，半小时只写入1次）" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XPeFe05pSeoeYRAG0yRP-5" vertex="1">
+        <mxCell id="MqdhVK-HY7xANDIFwz0L-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" source="V7nTUwQH5bitnzumU2AX-6" target="MqdhVK-HY7xANDIFwz0L-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7nTUwQH5bitnzumU2AX-6" value="加锁，半小时只处理1次" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XPeFe05pSeoeYRAG0yRP-5" vertex="1">
           <mxGeometry x="70" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-2" value="查询缓存中的广告计划列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
-          <mxGeometry x="70" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-4" value="查询广告计划计数值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
-          <mxGeometry x="70" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" source="VCBYZFLRC-QHVLFJjjLS-2" target="VCBYZFLRC-QHVLFJjjLS-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="770" as="targetPoint" />
+            <mxPoint x="130" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" source="aRkYkFqwWbnHcXKLK4h_-2" target="aRkYkFqwWbnHcXKLK4h_-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-2" value="查询缓存中的广告计划列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
-          <mxGeometry x="72.5" y="970" width="120" height="60" as="geometry" />
+          <mxGeometry x="72.5" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-3" value="查询广告计划表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
-          <mxGeometry x="72.5" y="1070" width="120" height="60" as="geometry" />
+          <mxGeometry x="72.5" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-9" value="7天前过期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
-          <mxGeometry x="92.5" y="1160" width="80" height="60" as="geometry" />
+          <mxGeometry x="92.5" y="1310" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" source="aRkYkFqwWbnHcXKLK4h_-3" target="aRkYkFqwWbnHcXKLK4h_-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="133" y="1170" as="targetPoint" />
+            <mxPoint x="133" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-11" value="从广告计划列表缓存中移除" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
-          <mxGeometry x="72.5" y="1264" width="120" height="60" as="geometry" />
+          <mxGeometry x="72.5" y="1414" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-10" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" source="aRkYkFqwWbnHcXKLK4h_-9" target="aRkYkFqwWbnHcXKLK4h_-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="133" y="1270" as="targetPoint" />
+            <mxPoint x="133" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aRkYkFqwWbnHcXKLK4h_-13" value="删除广告计划技术缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
-          <mxGeometry x="72.5" y="1360" width="120" height="60" as="geometry" />
+        <mxCell id="aRkYkFqwWbnHcXKLK4h_-13" value="删除广告计划计数缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
+          <mxGeometry x="72.5" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aRkYkFqwWbnHcXKLK4h_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-0" source="aRkYkFqwWbnHcXKLK4h_-13" target="aRkYkFqwWbnHcXKLK4h_-14">
+        <mxCell id="MqdhVK-HY7xANDIFwz0L-0" value="发送消耗预算完毕MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
+          <mxGeometry x="70" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqdhVK-HY7xANDIFwz0L-2" value="写入广告计划无效缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
+          <mxGeometry x="70" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqdhVK-HY7xANDIFwz0L-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" source="MqdhVK-HY7xANDIFwz0L-0" target="MqdhVK-HY7xANDIFwz0L-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V7nTUwQH5bitnzumU2AX-5" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="uOho3hO3nzCLooX27CC9-1" source="V7nTUwQH5bitnzumU2AX-4" edge="1">
@@ -751,20 +763,20 @@
         </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uOho3hO3nzCLooX27CC9-1" source="VCBYZFLRC-QHVLFJjjLS-4" target="VCBYZFLRC-QHVLFJjjLS-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="1370" as="targetPoint" />
+            <mxPoint x="420" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uOho3hO3nzCLooX27CC9-1" source="VCBYZFLRC-QHVLFJjjLS-6" target="VCBYZFLRC-QHVLFJjjLS-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="1370" as="targetPoint" />
+            <mxPoint x="250" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-6" value="更新广告计划表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="uOho3hO3nzCLooX27CC9-1">
-          <mxGeometry x="360" y="1340" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="uOho3hO3nzCLooX27CC9-1" source="aRkYkFqwWbnHcXKLK4h_-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="423" y="1850" as="targetPoint" />
+            <mxPoint x="423" y="2000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
@@ -1028,7 +1040,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2J0NqC41M0U0FBeVzpVP" name="整体流程">
-    <mxGraphModel dx="1363" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="POgKUBoXNcsDj7Iglr2z-0" />
         <mxCell id="POgKUBoXNcsDj7Iglr2z-1" parent="POgKUBoXNcsDj7Iglr2z-0" />
