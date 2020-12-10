@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T11:43:51.669Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="fu0Hm0NlCVXqm7-uTIqm" version="13.11.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-12-10T04:38:38.919Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="0KWcgITGmrAYNR0HQS6u" version="13.11.0" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="查询广告计划">
     <mxGraphModel dx="1635" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -626,7 +626,7 @@
         <mxCell id="uOho3hO3nzCLooX27CC9-0" />
         <mxCell id="uOho3hO3nzCLooX27CC9-1" parent="uOho3hO3nzCLooX27CC9-0" />
         <mxCell id="XPeFe05pSeoeYRAG0yRP-0" value="曝光统计" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" parent="uOho3hO3nzCLooX27CC9-1" vertex="1">
-          <mxGeometry x="130" y="470" width="530" height="1600" as="geometry" />
+          <mxGeometry x="130" y="470" width="530" height="2010" as="geometry" />
         </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XPeFe05pSeoeYRAG0yRP-0" source="XPeFe05pSeoeYRAG0yRP-2" target="XPeFe05pSeoeYRAG0yRP-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -634,7 +634,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-1" value="用户端" style="swimlane;html=1;startSize=20;" parent="XPeFe05pSeoeYRAG0yRP-0" vertex="1">
-          <mxGeometry y="20" width="160" height="1580" as="geometry" />
+          <mxGeometry y="20" width="160" height="1990" as="geometry" />
         </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-2" value="监听曝光kafka topic" style="rounded=1;whiteSpace=wrap;html=1;" parent="XPeFe05pSeoeYRAG0yRP-1" vertex="1">
           <mxGeometry x="20" y="35" width="120" height="60" as="geometry" />
@@ -654,6 +654,14 @@
         <mxCell id="aRkYkFqwWbnHcXKLK4h_-14" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-1">
           <mxGeometry x="20" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="578_TW30kGgNHSs3byjk-1" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-1">
+          <mxGeometry x="20" y="1838" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="578_TW30kGgNHSs3byjk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-1" target="578_TW30kGgNHSs3byjk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="232.5" y="1868" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VCBYZFLRC-QHVLFJjjLS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-0" source="VCBYZFLRC-QHVLFJjjLS-0" target="VCBYZFLRC-QHVLFJjjLS-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="870" as="targetPoint" />
@@ -671,7 +679,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-5" value="广告计划模块" style="swimlane;html=1;startSize=20;" parent="XPeFe05pSeoeYRAG0yRP-0" vertex="1">
-          <mxGeometry x="160" y="20" width="370" height="1580" as="geometry" />
+          <mxGeometry x="160" y="20" width="370" height="1990" as="geometry" />
         </mxCell>
         <mxCell id="XPeFe05pSeoeYRAG0yRP-6" value="获取曝光事件id列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="XPeFe05pSeoeYRAG0yRP-5" vertex="1">
           <mxGeometry x="70" y="35" width="120" height="60" as="geometry" />
@@ -752,6 +760,34 @@
         <mxCell id="MqdhVK-HY7xANDIFwz0L-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" source="MqdhVK-HY7xANDIFwz0L-0" target="MqdhVK-HY7xANDIFwz0L-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="578_TW30kGgNHSs3byjk-0" value="定时清除广告计划无效缓存&lt;br&gt;每天凌晨跑一次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
+          <mxGeometry x="-140" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="578_TW30kGgNHSs3byjk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" source="578_TW30kGgNHSs3byjk-0" target="578_TW30kGgNHSs3byjk-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="578_TW30kGgNHSs3byjk-5" value="查询广告计划无效缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
+          <mxGeometry x="72.5" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="578_TW30kGgNHSs3byjk-7" value="1天前过期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
+          <mxGeometry x="90" y="1730" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="578_TW30kGgNHSs3byjk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" target="578_TW30kGgNHSs3byjk-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-159.5" y="1250" as="targetPoint" />
+            <mxPoint x="130" y="1700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="578_TW30kGgNHSs3byjk-9" value="从广告计划无效缓存中移除" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XPeFe05pSeoeYRAG0yRP-5">
+          <mxGeometry x="70" y="1834" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="578_TW30kGgNHSs3byjk-10" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XPeFe05pSeoeYRAG0yRP-5" source="578_TW30kGgNHSs3byjk-7" target="578_TW30kGgNHSs3byjk-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-159.5" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="V7nTUwQH5bitnzumU2AX-5" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="uOho3hO3nzCLooX27CC9-1" source="V7nTUwQH5bitnzumU2AX-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="930" as="targetPoint" />
@@ -783,7 +819,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UIyQHxyXcqEbRg1r0v4E" name="充值">
-    <mxGraphModel dx="1635" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1635" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NR8Hzzg2eVxnOmdGWqBG-0" />
         <mxCell id="NR8Hzzg2eVxnOmdGWqBG-1" parent="NR8Hzzg2eVxnOmdGWqBG-0" />
@@ -905,7 +941,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jZJaOvLuWdz1vP50srQw" name="退款脚本">
-    <mxGraphModel dx="1635" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1635" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dDS-AAzhdLfFo4iIG_Q--0" />
         <mxCell id="dDS-AAzhdLfFo4iIG_Q--1" parent="dDS-AAzhdLfFo4iIG_Q--0" />
@@ -1032,7 +1068,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3SkcOyvgBhOFiyYd0YFX" name="内容/商品下架">
-    <mxGraphModel dx="1635" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1635" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="SC2UZAubSrEdxrHUcUOa-0" />
         <mxCell id="SC2UZAubSrEdxrHUcUOa-1" parent="SC2UZAubSrEdxrHUcUOa-0" />
